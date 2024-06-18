@@ -1,0 +1,31 @@
+main{
+    min-height: 500px;
+    min-width: auto;
+    background-color: rgb(4, 104, 82);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(241, 241, 238);
+    font-size: 3em;
+    position: absolute;
+    margin: 0px auto;
+    left: 500px;
+    top: 300px;
+}
+
+.photo{
+    min-height: 700px;
+    min-width: 1000px;
+   float: right;
+   }
+
+.abc li{
+    text-align: right;
+    color: white;
+    font-size: 2em;
+    list-style-type: none;
+    left: 10px;
+   }

@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+}
+h1,h2{
+    text-align: center;
+}
+
+.abc{
+    font-size: 2em;
+}

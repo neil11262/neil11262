@@ -1,0 +1,19 @@
+.photo{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    float: right;
+    flex-direction: column;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.test{
+    font-size: 2em;
+}
