@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed</title>
+  <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+</head>
+<style>
+body,ul {
+    margin: 0px;
+}
+
+#content{
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+header {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(236, 101, 101);
+    position: relative;
+}
+
+main {
+    min-height: 10000px;
+    background-color: blanchedalmond;
+}
+
+aside{
+    width: 20%;
+    background-color: blueviolet;
+    min-height: 1000px;
+    float: left;
+}
+
+section{
+    width: 80%;
+    background-color: blue;
+    min-height: 1000px;
+    float: left;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(230, 89, 7);
+    clear: both;
+}
+
+.menu{
+    list-style-type: none;
+    width:600px;
+    position: absolute;
+   
+    
+}
+
+.menu-item a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.menu-item{
+    display: inline-block;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+}
+
+.menu-item a :hover{
+    color: rgb(17, 21, 243);
+}
+
+.photo{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: -500px;
+    line-height: 100px;
+}
+
+.gottop{
+    position: fixed;
+    right: 300px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.arrow{
+    font-size: 3em;
+}
+
+</style>
+<body>
+   <div id="content">
+      <div id="header"></div>
+        <nav>
+            <ul class="menu">
+                <li  class="menu-item"><a href="" hreh="#">超連結</a></li>
+                <li  class="menu-item"><a href="" hreh="#">超連結</a></li>
+                <li  class="menu-item"><a href="" hreh="#">超連結</a></li>
+                <li  class="menu-item"><a href="" hreh="#">超連結</a></li>
+                <li  class="menu-item"><a href="" hreh="#">超連結</a></li>
+            </ul>
+            <i class="fa-solid fa-cat fa-flip-horizontal fa-5x photo" style="color: #74C0FC;"></i>
+        </nav>
+        <main>
+        </main>
+        <footer></footer>
+      <a href="#header"> <div class="gottop"><i class="fa-solid fa-up-long fa-bounce arrow" style="color: #63E6BE;"></i></div></a>
+   </div>
+</body>
+
+</html>
